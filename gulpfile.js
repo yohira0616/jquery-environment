@@ -63,7 +63,7 @@ gulp.task('server:reload', function () {
 gulp.task('watch', function () {
   gulp.watch('src/htdocs/**/*.html', ['htdocs', 'server:reload']);
   gulp.watch('src/scripts/**/*.js', ['js', 'server:reload']);
-  gulp.watch('src/scss/**/*.scss', ['lib', 'server:reload']);
+  gulp.watch('src/scss/**/*.scss', ['scss', 'server:reload']);
 });
 
 gulp.task('develop',function (callback) {
