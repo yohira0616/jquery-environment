@@ -1,0 +1,34 @@
+{
+  "name": "jquery-environment",
+  "version": "1.0.0",
+  "description": "jquery with awesome-buildtool boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/gulp/bin/gulp watch",
+    "build": "node_modules/gulp/bin/gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yohira0616/jquery-environment.git"
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "gulp",
+    "automation"
+  ],
+  "author": "yohira0616",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yohira0616/jquery-environment/issues"
+  },
+  "homepage": "https://github.com/yohira0616/jquery-environment#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  }
+}
